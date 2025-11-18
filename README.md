@@ -1,52 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Product Cards Grid</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+# Q2 — Product Cards Grid
 
-  <section class="products">
-    <article class="card featured">
-      <figure>
-        <img src="assets/product-1.jpg" alt="Featured product image">
-        <figcaption>Featured Product</figcaption>
-      </figure>
-      <h2>Featured Product</h2>
-      <p>Highlight product with full-row width on larger screens.</p>
-      <a href="#">View Details</a>
-    </article>
+A responsive product card layout using CSS Grid.
 
-    <article class="card">
-      <figure>
-        <img src="assets/product-2.jpg" alt="Product image 2">
-      </figure>
-      <h2>Product Two</h2>
-      <p>Short description here.</p>
-      <a href="#">View Details</a>
-    </article>
+## How to view
+Open `index.html` directly in the browser or enable GitHub Pages from:
+Settings → Pages → Build from main branch.
 
-    <article class="card">
-      <figure>
-        <img src="assets/product-3.jpg" alt="Product image 3">
-      </figure>
-      <h2>Product Three</h2>
-      <p>Short description here.</p>
-      <a href="#">View Details</a>
-    </article>
-
-    <article class="card">
-      <figure>
-        <img src="assets/product-4.jpg" alt="Product image 4">
-      </figure>
-      <h2>Product Four</h2>
-      <p>Short description here.</p>
-      <a href="#">View Details</a>
-    </article>
-  </section>
-
-</body>
-</html>
-
+## Requirements covered
+- Semantic HTML
+- CSS Grid with auto-fit/minmax
+- Featured card spans full width on desktop
+- Responsive: stacks on mobile
+- Box model + padding + border + hover
+- 
